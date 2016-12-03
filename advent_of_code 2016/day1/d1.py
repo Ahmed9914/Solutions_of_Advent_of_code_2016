@@ -7,8 +7,6 @@ xs, ys=[], []
 
 with open('input.txt', 'r') as f:
     l = f.read().split(', ')
-#l = 'R5, L5, R5, R3'.split(', ')
-
 
 def walk(key, s):
     if key == "up" or key == "down":
@@ -47,3 +45,4 @@ print 'solution of part a is: ',abs(current_pos[0])+abs(current_pos[1])
 import matplotlib.pyplot as plt
 plt.plot(xs, ys)
 plt.show()            
+print 'solution of part b can be got from the plot'
